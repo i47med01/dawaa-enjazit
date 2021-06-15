@@ -65,12 +65,12 @@ List<Product> demoProducts = [
     images: [
       "assets/images/skin_care.png",
     ],
-    // colors: [
-    //   Color(0xFF99dfe6),
-    //   Color(0xFF836DB8),
-    //   Color(0xFFDECB9C),
-    //   Colors.white,
-    // ],
+    colors: [
+      Color(0xFF99dfe6),
+      Color(0xFF836DB8),
+      Color(0xFFDECB9C),
+      Colors.white,
+    ],
     title: "pixi for smoth skin",
     price: 36.55,
     description: description,
@@ -84,10 +84,10 @@ List<Product> demoProducts = [
       "assets/images/skin_care.png",
     ],
     colors: [
-      // Color(0xFFF6625E),
-      // Color(0xFF836DB8),
-      // Color(0xFFDECB9C),
-      // Colors.white,
+      Color(0xFFF6625E),
+      Color(0xFF836DB8),
+      Color(0xFFDECB9C),
+      Colors.white,
     ],
     title: "pixi for smoth skin",
     price: 20.20,

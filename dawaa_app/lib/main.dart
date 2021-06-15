@@ -3,7 +3,6 @@ import 'package:adobe_xd/pinned.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:dawaa_app/all.dart';
 
-
 void main() {
   runApp(MyApp());
 }
@@ -13,9 +12,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: theme(),
-     /* theme: ThemeData(
+      /* theme: ThemeData(
         // This is the theme of your application.
         //
         // Try running your application with "flutter run". You'll see the
@@ -118,4 +118,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
